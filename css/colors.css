@@ -1,0 +1,21 @@
+/* Footer */
+#footer{
+	background-color: #8960A7;
+}
+/* Navbar */
+.navbar .navbar-inner {
+	background-color: #8960A7;
+}
+/* Background */
+body{
+	background-color: #F6F6F6;
+}
+/*Side Bar Section */
+.well.side-bar{
+	 background-color: #F5F5F5;
+}
+/* Content Section */
+.content{
+	background-color: #FDFDFD;
+    background-image: url("../img/assets/bg_content.jpg");
+}
