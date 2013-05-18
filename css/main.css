@@ -120,7 +120,9 @@
 	padding: 4px 12px;
 }*/
 
-
+.accordion{
+	float: left;
+}
 
 @media (min-width: 980px) and (max-width: 1200px){
 	.content{
@@ -128,11 +130,36 @@
 	}
 }
 @media (min-width: 768px) and (max-width: 979px) { 
+	/*Header*/
+	
+	.navbar .container{
+		width: 724px;
+	}
+	.btn.btn-navbar{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.navbar-inner .nav-collapse.collapse
+	{
+		margin:0;
+	}
+	
+	/*Accordion*/
+	.accordion{
+		width: 100%;
+		float:none;
+		margin-left: 10px;
+	}
+	
+	#side-bar,.side-bar{
+		margin-left: 0;
+	}
 	.side-bar{
 		top:80px;
 	}
 	#content{
-		padding-top:25px;
+		padding-top:0;
+		margin-top: -15px;
 	}
 	.content{
 		margin-left: 20px;
@@ -140,6 +167,7 @@
 }
 @media (max-width: 767px) { 
 	
+	/* Header*/
 	.btn.btn-navbar{
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -151,14 +179,42 @@
 	.navbar-inner .nav-collapse.collapse
 	{
 		margin:0;
-		
 	}
+	/*SideBar*/
+	#content{
+		padding-top: 0;
+	}
+	#side-bar{
+		float: none;
+	}
+	 .side-bar[class*="span"]{
+	 	position: static;
+	 	top: auto;
+	 	margin-bottom: 20px;
+	 	float: none;
+	 }
+	 .bottom.side-bar[class*="span"]{
+	 	margin-bottom: 0;
+	 	margin-top:20px;
+	 }
+	 
+	 
+	 /* Accodion*/
 	
+	.accordion{
+		width: 100%;
+	}
+	 
+	 
+	 /*Footer*/
+	#footer{
+		margin-right: -20px;
+	}
 }
  
 
 @media (max-width: 480px) { 
-	
+	/* Header	 */
 	.navbar-inner .brand.pull-right{
 		float: left;
 	}
@@ -167,11 +223,36 @@
 		margin:0;
 		
 	}
-	.accordion{
-		margin-left: 0;
-		
+	
+	/*SideBar*/
+	#content{
+		padding-top: 0;
 	}
-
+	#side-bar{
+		float: none;
+	}
+	 .side-bar[class*="span"]{
+	 	position: static;
+	 	top: auto;
+	 	margin-bottom: 20px;
+	 	
+	 }
+	.bottom.side-bar[class*="span"]{
+	 	margin-bottom: 0;
+	 	margin-top:20px;
+	 }
+	 
+	/* Accodion*/
+	
+	.accordion{
+		width: 100%;
+	}
+	
+	
+	/*Fotter */
+	#footer{
+		margin-right: -20px;
+	}
 }
  
 
