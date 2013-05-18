@@ -1,11 +1,12 @@
-/* Footer */
-#footer{
-	background-color: #8960A7;
+/* Footer *//* Navbar */
+#footer,.navbar .navbar-inner{
+	background-color: #D44413;
+    background-image: linear-gradient(to bottom, #CE4213, #DD4814);
 }
-/* Navbar */
-.navbar .navbar-inner {
-	background-color: #8960A7;
+#footer a{
+	color:#fff;
 }
+
 /* Background */
 body{
 	background-color: #F6F6F6;
@@ -17,5 +18,5 @@ body{
 /* Content Section */
 .content{
 	background-color: #FDFDFD;
-    background-image: url("../img/assets/bg_content.jpg");
+    
 }

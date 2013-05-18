@@ -20,13 +20,20 @@
     /* Negative indent footer by it's height */
     margin: 0 auto -70px;
   }
+  .page-container{
+  	padding: 20px;
+  	
+  }
 
+  .accordion{
+  	width: 400px;
+  }
   /* Set the fixed height of the footer here */
   #push {
     height: 70px;
   }
   #footer {
-    background-color: #f5f5f5;
+    
     padding-top:10px;
     margin-top: 10px;	
   }
@@ -62,6 +69,14 @@
 .navbar-inner .brand.pull-right{
 	float: right;
 }
+.navbar-inner .nav-collapse.collapse
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
 .navbar-inner .progress{
 	margin-left: 0;
 	margin-top: 20px;
@@ -96,14 +111,14 @@
 .content{
 	
 }
-
+/*
 .navbar .btn{
 	margin:20px 0;
 	height: 30px;
 	line-height: 30px;
 	float: right;
 	padding: 4px 12px;
-}
+}*/
 
 
 
@@ -122,6 +137,41 @@
 	.content{
 		margin-left: 20px;
 	}
+}
+@media (max-width: 767px) { 
+	
+	.btn.btn-navbar{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.navbar-inner .brand.pull-right{
+		float: left;
+	}
+	.navbar-inner .nav-collapse.collapse
+	{
+		margin:0;
+		
+	}
+	
+}
+ 
+
+@media (max-width: 480px) { 
+	
+	.navbar-inner .brand.pull-right{
+		float: left;
+	}
+	.navbar-inner .nav-collapse.collapse
+	{
+		margin:0;
+		
+	}
+	.accordion{
+		margin-left: 0;
+		
+	}
+
 }
  
 
