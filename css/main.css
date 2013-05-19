@@ -22,10 +22,9 @@
   }
   .page-container{
   	padding: 20px;
-  	
   }
 
-  .accordion{
+  .row-fluid .accordion{
   	width: 400px;
   }
   /* Set the fixed height of the footer here */
@@ -43,6 +42,11 @@
   }
   footer.container{
   	margin: 0 auto;
+  }
+  
+  .row-fluid .accordion.full-w{
+  	width: 100%;
+  	margin-left: 0;
   }
 
   /* Lastly, apply responsive CSS fixes as necessary */
@@ -109,8 +113,8 @@
 #content{
 	padding-top: 95px;
 }
-.content{
-	
+.row-fluid .content{
+	margin-left: 0;
 }
 /*
 .navbar .btn{
@@ -123,6 +127,7 @@
 
 .accordion{
 	float: left;
+	
 }
 
 @media (min-width: 980px) and (max-width: 1200px){
@@ -137,8 +142,8 @@
 		width: 724px;
 	}
 	.btn.btn-navbar{
-		margin-top: 20px;
-		margin-bottom: 20px;
+		
+		margin:20px 1px;
 	}
 	.navbar-inner .nav-collapse.collapse
 	{
@@ -146,10 +151,11 @@
 	}
 	
 	/*Accordion*/
-	.accordion{
+	.row-fluid .accordion{
 		width: 100%;
 		float:none;
-		margin-left: 10px;
+		margin-left: 0;
+		
 	}
 	
 	#side-bar,.side-bar{
@@ -210,7 +216,7 @@
 	 
 	 /* Accodion*/
 	
-	.accordion{
+	.row-fluid  .accordion{
 		width: 100%;
 	}
 	 
@@ -253,7 +259,7 @@
 	 
 	/* Accodion*/
 	
-	.accordion{
+	.row-fluid  .accordion{
 		width: 100%;
 	}
 	
